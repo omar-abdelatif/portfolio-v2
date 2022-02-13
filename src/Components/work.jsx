@@ -2,7 +2,7 @@ function Work() {
     const work = [
         {
             id: 1,
-            img: 'portfolio-v2/imgs/nfe.webp',
+            img: '/portfolio-v2/imgs/nfe.webp',
             title: 'Nubian For Electronics',
             desc: 'For pc setup and accessories',
             url_icon: 'fad fa-link',
