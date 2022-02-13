@@ -97,6 +97,9 @@ header {
 .nav{
 	justify-content: center;
 }
+.work nav{
+	margin-bottom: 20px;
+}
 .nav-home-tab{
 	background-color: #5f84a2 !important;
 	color: #fff;
@@ -136,6 +139,7 @@ header {
 .work__item{
 	box-shadow: 0 0 10px #fff;
 	transition: .3s all;
+	overflow: hidden;
 }
 .work__item:hover{
 	transform: translateY(-10px);
@@ -143,6 +147,12 @@ header {
 .work__item-info{
 	background-color: #fff;
 	padding: 10px;
+}
+.work__item img{
+	transition: .3s all;
+}
+.work__item:hover img{
+	transform: scale(1.1);
 }
 .work__item-info h3{
 	font-size: 1.3rem;
@@ -178,6 +188,9 @@ header {
 	font-size: 0.8rem;
 	margin-bottom: 10px;
 	margin-right: 10px;
+}
+.tab-pane h1 i{
+	color: rgb(202, 21, 21);
 }
 /*  */
 /* FOOTER */
