@@ -18,7 +18,7 @@ function Work() {
         },
         {
             id: 2,
-            img: 'portfolio-v2/imgs/game.webp',
+            img: '/portfolio-v2/imgs/game.webp',
             title: 'Gaming For Life',
             desc: 'For selling all platform games ',
             url_icon: 'fad fa-link',
@@ -34,7 +34,7 @@ function Work() {
         },
         {
             id: 3,
-            img: 'portfolio-v2/imgs/piratesbike.webp',
+            img: '/portfolio-v2/imgs/piratesbike.webp',
             title: 'Pirates Bike',
             desc: 'For Finding Lost Bikes',
             url_icon: 'fad fa-link',
@@ -50,7 +50,7 @@ function Work() {
         },
         {
             id: 4,
-            img: 'portfolio-v2/imgs/omlo.webp',
+            img: '/portfolio-v2/imgs/omlo.webp',
             title: 'Olmo',
             desc: 'For SEO and Social Media',
             url_icon: 'fad fa-link',
