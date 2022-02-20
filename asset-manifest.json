@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-v2/static/css/main.e44c2f2a.css",
-    "main.js": "/portfolio-v2/static/js/main.8b906509.js",
+    "main.css": "/portfolio-v2/static/css/main.4d429f9d.css",
+    "main.js": "/portfolio-v2/static/js/main.4474e4c4.js",
     "static/media/pro-fa-duotone-900-5.0.0.svg": "/portfolio-v2/static/media/pro-fa-duotone-900-5.0.0.8d1daf9193f8308f458f.svg",
     "static/media/pro-fa-brands-400-5.0.0.svg": "/portfolio-v2/static/media/pro-fa-brands-400-5.0.0.1aa7048d23b2939c6e51.svg",
     "static/media/pro-fa-light-300-5.0.0.svg": "/portfolio-v2/static/media/pro-fa-light-300-5.0.0.e9a8138818b17ce5b583.svg",
@@ -877,11 +877,11 @@
     "static/media/pro-fa-solid-900-5.8.2.woff2": "/portfolio-v2/static/media/pro-fa-solid-900-5.8.2.7d3b576672410c68f6a3.woff2",
     "static/media/pro-fa-solid-900-5.4.1.woff2": "/portfolio-v2/static/media/pro-fa-solid-900-5.4.1.b6114716dc9385bd67c1.woff2",
     "index.html": "/portfolio-v2/index.html",
-    "main.e44c2f2a.css.map": "/portfolio-v2/static/css/main.e44c2f2a.css.map",
-    "main.8b906509.js.map": "/portfolio-v2/static/js/main.8b906509.js.map"
+    "main.4d429f9d.css.map": "/portfolio-v2/static/css/main.4d429f9d.css.map",
+    "main.4474e4c4.js.map": "/portfolio-v2/static/js/main.4474e4c4.js.map"
   },
   "entrypoints": [
-    "static/css/main.e44c2f2a.css",
-    "static/js/main.8b906509.js"
+    "static/css/main.4d429f9d.css",
+    "static/js/main.4474e4c4.js"
   ]
 }
