@@ -2,6 +2,7 @@ import React from 'react';
 import NAV from './nav';
 import Hero from './hero';
 import Work from './work';
+import RecentProjects from './recentprojects';
 import Footer from './footer';
 function App() {
     return (
@@ -9,6 +10,7 @@ function App() {
             <NAV />
             <Hero />
             <Work />
+            <RecentProjects />
             <Footer />
         </React.Fragment>
     );

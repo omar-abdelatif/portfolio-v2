@@ -54,8 +54,8 @@ function Work() {
             title: 'Olmo',
             desc: 'For SEO and Social Media',
             url_icon: 'fad fa-link',
-            url: '',
-            alt: 'Olmo',
+            url: 'https://omar-abdelatif.github.io/olmo-react/',
+            alt: 'olmo',
             tags: [
                 'HTML5',
                 'CSS3',
@@ -76,19 +76,21 @@ function Work() {
                     </div>
                 </div>
                 <nav>
-                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Projects</button>
-                        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">UI DESIGNS</button>
+                    <div className="nav nav-tabs" id="nav-tab" role="tablist">
+                        <button className="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Projects</button>
+                        <button className="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">UI DESIGNS</button>
                     </div>
                 </nav>
-                <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div className="tab-content" id="nav-tabContent">
+                    <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                         <div className="row justify-content-center">
-                            {work.map(item => (<div className="col-lg-3" key={item.id}>
+                            {work.map(item => (<div className="col-lg-4" key={item.id}>
                                 <div className="work__item">
-                                    <img src={item.img} alt={item.alt} />
+                                    <div className="work__img">
+                                        <img src={item.img} alt={item.alt} />
+                                    </div>
                                     <div className="work__item-info">
-                                        <h3>{item.title}</h3>
+                                        <h2>{item.title}</h2>
                                         <p>{item.desc}</p>
                                         <div className="work__item-links">
                                             <a href={item.url} className="work__item-link">
@@ -103,7 +105,7 @@ function Work() {
                             </div>))}
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                         <h1>
                             <span>SOOOOOOON With</span>
                             <span>
