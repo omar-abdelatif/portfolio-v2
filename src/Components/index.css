@@ -57,7 +57,7 @@ header {
 .hero-img img {
 	border-radius: 50%;
 	width: 260px;
-	height: 230px;
+	height: auto;
 	border: 3px solid #fff;
 	padding: 13px;
 }

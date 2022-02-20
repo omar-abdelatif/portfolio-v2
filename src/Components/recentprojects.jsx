@@ -26,7 +26,7 @@ function RecentProjects() {
         }
     ]
     return (
-        <div className="recent-projects">
+        <section className="recent-projects">
             <div className="container">
                 <div className="row">
                     <div className="project-header">
@@ -50,7 +50,7 @@ function RecentProjects() {
                     ))}
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 export default RecentProjects;
