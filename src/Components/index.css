@@ -1,5 +1,6 @@
 img {
 	width: 100%;
+	height: auto;
 }
 p {
 	margin-bottom: 0;
@@ -53,11 +54,11 @@ header {
 	text-align: center;
 	margin-right: 50px;
 	z-index: 1;
+	width: 275px;
+	height: auto;
 }
 .hero-img img {
 	border-radius: 50%;
-	width: 260px;
-	height: auto;
 	border: 3px solid #fff;
 	padding: 13px;
 }
@@ -292,7 +293,6 @@ header {
 }
 .project__img img {
 	transition: 0.3s all;
-	width: 100%;
 	z-index: -1 !important;
 }
 .project__item:hover img {
@@ -314,6 +314,42 @@ header {
 	color: #000;
 	font-weight: 500;
 	margin-bottom: 1rem;
+}
+/* SKILLS */
+.skills{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #194569;
+}
+.skills__title {
+	text-align: center;
+	padding-bottom: 60px;
+}
+.skills__title h2{
+	color: #fff;
+	font-size: 3.8rem;
+	font-weight: bold;
+}
+.slider-item-icon{
+	color: #fff;
+	text-align: center;
+}
+.slider-item-icon i {
+	font-size: 3rem;
+}
+/* TESTMONIALS */
+.testmonials{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.testmonials-title{
+	text-align: center;
+	padding-bottom: 60px;
+}
+.testmonials-title h2{
+	color: #fff;
+	font-size: 3.8rem;
+	font-weight: bold;
 }
 /* FOOTER */
 footer {

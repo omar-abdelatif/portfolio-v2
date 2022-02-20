@@ -1,6 +1,5 @@
 import React from 'react';
 import { useEffect } from 'react';
-
 function Hero() {
     useEffect(() => {
         const Script = document.createElement('script');
@@ -37,17 +36,17 @@ function Hero() {
                         </div>
                         <div className="social">
                             <div className="facebook icon">
-                                <a href="https://www.facebook.com/omar.elmalek.5">
+                                <a href="https://www.facebook.com/omar.elmalek.5" aria-label='facebook'>
                                     <i className="fab fa-facebook"></i>
                                 </a>
                             </div>
                             <div className="whatsapp icon">
-                                <a href="https://api.whatsapp.com/send?phone=+201062760141">
+                                <a href="https://api.whatsapp.com/send?phone=+201062760141" aria-label='whatsapp'>
                                     <i className="fab fa-whatsapp"></i>
                                 </a>
                             </div>
                             <div className="github icon">
-                                <a href="https://github.com/omar-abdelatif?tab=repositories">
+                                <a href="https://github.com/omar-abdelatif?tab=repositories" aria-label='github'>
                                     <i className="fab fa-github"></i>
                                 </a>
                             </div>

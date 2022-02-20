@@ -93,7 +93,7 @@ function Work() {
                                         <h2>{item.title}</h2>
                                         <p>{item.desc}</p>
                                         <div className="work__item-links">
-                                            <a href={item.url} className="work__item-link">
+                                            <a href={item.url} className="work__item-link" aria-label='project link'>
                                                 <i className={item.url_icon}></i>
                                             </a>
                                         </div>
