@@ -38,7 +38,7 @@ function RecentProjects() {
                         <div className="col-md-4" key={projects.id}>
                             <div className="project__item">
                                 <div className="project__img">
-                                    <img src={projects.img} alt={projects.alt} />
+                                    <img src={projects.img} alt={projects.alt} width={"356"} height={"200"} />
                                 </div>
                                 <div className="project__info">
                                     <h2>{projects.title}</h2>

@@ -87,7 +87,7 @@ function Work() {
                             {work.map(item => (<div className="col-lg-4" key={item.id}>
                                 <div className="work__item">
                                     <div className="work__img">
-                                        <img src={item.img} alt={item.alt} />
+                                        <img src={item.img} alt={item.alt} width={"356"} height={"200"} />
                                     </div>
                                     <div className="work__item-info">
                                         <h2>{item.title}</h2>

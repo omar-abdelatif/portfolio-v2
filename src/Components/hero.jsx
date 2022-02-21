@@ -14,7 +14,7 @@ function Hero() {
                     <div className="col-12">
                         <div className="hero-info">
                             <div className="hero-img">
-                                <img src={process.env.PUBLIC_URL + '/imgs/profile.webp'} alt="" />
+                                <img src={process.env.PUBLIC_URL + '/imgs/profile.webp'} width={"300"} height={"250"} alt="" />
                             </div>
                             <div className="hero-txt">
                                 <h1>Hi, My Name Is Omar</h1>
