@@ -1,12 +1,5 @@
 import React from 'react';
-import { useEffect } from 'react';
 function Hero() {
-    useEffect(() => {
-        const Script = document.createElement('script');
-        Script.src = '/portfolio-v2/js/custom.js';
-        Script.async = true;
-        document.body.appendChild(Script);
-    }, []);
     return (
         <section className="hero">
             <div className="container">

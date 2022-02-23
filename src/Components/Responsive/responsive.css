@@ -1,54 +1,177 @@
-@media (max-width: 1024px){
-    /* WORK */
-    .work__item-info h2{
-        font-size: 1.4rem;
-    }
-    /* RECENT PROJECTS */
-    .project__info p{
-        font-size: 0.9rem;
-    }
+@media (max-width: 1024px) {
+	/* WORK */
+	.work__item-info h2 {
+		font-size: 1.4rem;
+	}
+	/* RECENT PROJECTS */
+	.project__info p {
+		font-size: 0.9rem;
+	}
 }
-@media (max-width: 991px){
+@media (max-width: 991px) {
+	/* NAVBAR */
+	.navbar-nav {
+		flex-direction: row;
+	}
+	.navbar-nav .nav-item {
+		margin-right: 20px;
+	}
+	.navbar-nav .nav-item:last-child {
+		margin-right: 0;
+	}
+}
+@media (max-width: 768px) {
+	/* HERO */
+	.hero-img img {
+		width: 270px;
+	}
+	/* WORK */
+	.work__title h1 {
+		font-size: 2.5rem;
+	}
+	.nav-tabs .nav-link {
+		font-size: 1.2rem;
+	}
+	/* RECENT PROJECT */
+	.project-header h1 {
+		font-size: 2.5rem;
+	}
+	/* SKILLS */
+	.skills__title h2 {
+		font-size: 3.3rem;
+	}
+	.slick-list {
+		padding: 0;
+	}
+	/* TESTMONIALS */
+	.testmonial-content {
+		padding: 40px 0;
+	}
+}
+@media (max-width: 576px) {
+    /* HERO */
+	.hero-info {
+		display: flex;
+		flex-direction: column;
+	}
+	.hero-img {
+		margin-right: 0;
+		margin-bottom: 30px;
+	}
+    /* WORK */
+	.nav-tabs .nav-link {
+		width: 40%;
+	}
+	.work__item, .project__item {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media (max-width: 375px) {
+    /* HEADER */
+    header{
+        margin-bottom: 20px;
+    }
     /* NAVBAR */
-    .navbar-nav{
-        flex-direction: row;
+    .navbar{
+        margin-bottom: 30px;
     }
-    .navbar-nav .nav-item{
-        margin-right: 20px;
-    }
-    .navbar-nav .nav-item:last-child{
+    .navbar-brand {
         margin-right: 0;
     }
-}
-@media (max-width: 768px){
-    /* HERO */
-    .hero-img img{
-        width: 270px;
+    .navbar .container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navbar-nav{
+        flex-direction: column;
+    }
+    .navbar-nav .nav-item{
+        margin-right: 0;
     }
     /* WORK */
-    .work__title h1{
-        font-size: 2.5rem;
+    .work__title h1, .project-header h1{
+        font-size: 2.2rem;
     }
     .nav-tabs .nav-link{
-        font-size: 1.2rem;
-    }
-    /* RECENT PROJECT */
-    .project-header h1{
-        font-size: 2.5rem;
-    }
-    /* SKILLS */
-    .skills__title h2{
-        font-size: 3.3rem;
-    }
-    .slick-list{
-        padding: 0;
+        width: 50%;
     }
     /* TESTMONIALS */
-    .testmonial-content{
-        padding: 40px 0;
+    .testmonials-title h2{
+        font-size: 3rem;
+    }
+    footer span a{
+        display: block;
+        padding-left: 0;
     }
 }
-@media (max-width: 576px){}
-@media (max-width: 480px){}
-@media (max-width: 375px){}
-@media (max-width: 280px){}
+@media (max-width: 280px) {
+    /* HERO */
+    .hero{
+        padding: 80px 0;
+    }
+    .hero-img img{
+        width: 240px;
+    }
+    .icon{
+        padding: 20px;
+    }
+    .icon i{
+        font-size: 2rem;
+    }
+    /* WORK */
+    .nav-tabs .nav-link{
+        font-size: 0.7rem;
+        padding: 10px 0;
+    }
+    .work__item-info h2{
+        font-size: 1rem;
+    }
+    .work__item-info p{
+        font-size: 0.7rem;
+    }
+    .work__item-links i{
+        font-size: 1.6rem;
+    }
+    .more__btn a{
+        font-size: 1rem;
+    }
+    /* RECENT PROJECT */
+    .recent-projects{
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .skills__title{
+        padding-bottom: 40px;
+    }
+    .skills__title h2{
+        font-size: 2rem;
+    }
+    /* TESTMONIALS */
+    .testmonials-title h2{
+        font-size: 2rem;
+    }
+    .testmonial-content{
+        padding: 20px 0;
+    }
+    .slick-dots{
+        padding: 15px 0;
+    }
+    .slick-dots li:first-child button:before{
+        width: 40px;
+        height: 40px;
+    }
+    .slick-dots li:last-child button:before{
+        width: 40px;
+        height: 40px;
+    }
+    /* SCROLLUP */
+    .scroll{
+        width: 10px;
+        height: 10px;
+    }
+    .scroll i{
+        font-size: 1.5rem;
+    }
+}

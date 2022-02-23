@@ -4,6 +4,13 @@ function NAV() {
         const Body = document.body;
         Body.classList.toggle('dark-mode');
     };
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 150) {
+            document.querySelector('.navbar').classList.add('fixed');
+        } else {
+            document.querySelector('.navbar').classList.remove('fixed');
+        }
+    })
     return (
         <header>
             <nav className="navbar navbar-expand-lg">

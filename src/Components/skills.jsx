@@ -24,7 +24,7 @@ function Skills() {
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                     slidesToScroll: 1,
                     infinite: true,
                     dots: false,
@@ -33,7 +33,7 @@ function Skills() {
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 3,
                     slidesToScroll: 1,
                     infinite: true,
                     dots: false,
