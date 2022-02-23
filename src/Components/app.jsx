@@ -5,6 +5,7 @@ import Work from './work';
 import RecentProjects from './recentprojects';
 import Skills from './skills';
 import Testmonials from './testmonials';
+import ScrollUp from './scrollup';
 import Footer from './footer';
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
             <RecentProjects />
             <Skills />
             <Testmonials />
+            <ScrollUp />
             <Footer />
         </React.Fragment>
     );

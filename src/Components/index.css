@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
 p {
 	margin-bottom: 0;
 }
@@ -13,6 +13,57 @@ h5,
 h6 {
 	margin-bottom: 0;
 }
+.form-check-input:focus{
+	box-shadow: none;
+}
+::-webkit-scrollbar {
+	width: 7px;
+}
+::-webkit-scrollbar-thumb {
+	background: #ccc;
+	border-radius: 50px;
+}
+/* DARK MODE */
+.dark-mode,
+.dark-mode .options li span:after{
+	background-color: #000;
+}
+.dark-mode .work,
+.dark-mode .skills, .dark-mode footer{
+	background-color: #2c2c2c;
+}
+.dark-mode .facebook,
+.dark-mode .whatsapp,
+.dark-mode .github{
+	background-color: transparent;
+	border: 2px solid #fff;
+}
+.dark-mode .nav-tabs .nav-link{
+	background-color: #838383 !important;
+}
+.dark-mode .nav-tabs .nav-link:hover{
+	background-color: #616161 !important;
+}
+.dark-mode .tab-pane h1 i{
+	color: aliceblue;
+}
+.dark-mode .testmonials-slider{
+	background: #808080;
+}
+.dark-mode .slick-dots{
+	background: #525252;
+}
+.dark-mode .more__btn a, .dark-mode .project__info a{
+	background-color: #727272;
+	border: none;
+}
+.dark-mode .more__btn a:hover{
+	background-color: #616161;
+}
+.dark-mode .tags span, .dark-mode .form-check-input:checked{
+	background-color: #7d7d7d;
+	border: none;
+}
 /* HEADER */
 header {
 	padding: 20px 0;
@@ -23,6 +74,9 @@ header {
 	padding: 10px 0;
 	top: 0;
 	width: 100%;
+}
+.navbar-nav{
+	align-items: center;
 }
 .navbar-collapse {
 	flex-grow: 0;
@@ -36,6 +90,21 @@ header {
 	color: #fff;
 	font-weight: bold;
 	font-size: 1.2rem;
+}
+.form-switch .form-check-input{
+	margin-left: 0;
+	width: 3em;
+	height: 1.5rem;
+}
+.form-switch{
+	padding-left: 0;
+}
+.form-check{
+	padding-left: 0;
+	margin-bottom: 0;
+}
+.form-check-input{
+	margin-top: 0;
 }
 /* HERO */
 .hero {
@@ -56,7 +125,7 @@ header {
 	border-radius: 50%;
 	border: 3px solid #fff;
 	padding: 13px;
-	height: auto;
+	height: 100%;
 }
 .hero-txt {
 	color: #fff;
@@ -369,8 +438,8 @@ header {
 	font-weight: bold;
 	padding: 20px 0;
 }
-.testmonial-content h4{
-	color: #000;
+.testmonial-content h3{
+	color: rgb(255, 255, 255);
 	font-size: 1rem;
 	font-weight: bold;
 	padding: 20px 0;
@@ -417,6 +486,35 @@ header {
 	height: auto;
 	width: auto;
 	display: inherit;
+}
+.slick-dots li.slick-active button:before{
+	opacity: 1;
+}
+/* SCROLLUP */
+.scrollup{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	opacity: 0;
+	transition: 0.5s all;
+}
+.scroll{
+	width: 30px;
+	height: 30px;
+	background-color: #4c6b85;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	padding: 30px;
+	box-shadow: 0 0 30px #fff;
+}
+.scroll i{
+	color: #fff;
+	font-size: 2rem;
+}
+.show{
+	opacity: 1;
 }
 /* FOOTER */
 footer {

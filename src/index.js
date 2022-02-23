@@ -4,6 +4,7 @@ import App from './Components/app';
 import { BrowserRouter } from 'react-router-dom';
 import "../node_modules/@fortawesome/fontawesome-free/css/all.min.css"
 import './Components/index.css';
+import './Components/Responsive/responsive.css';
 
 ReactDOM.render(
   <BrowserRouter>

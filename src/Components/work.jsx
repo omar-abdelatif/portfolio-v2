@@ -84,7 +84,7 @@ function Work() {
                 <div className="tab-content" id="nav-tabContent">
                     <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                         <div className="row justify-content-center">
-                            {work.map(item => (<div className="col-lg-4" key={item.id}>
+                            {work.map(item => (<div className="col-lg-4 col-md-6" key={item.id}>
                                 <div className="work__item">
                                     <div className="work__img">
                                         <img src={item.img} alt={item.alt} width={"356"} height={"200"} />

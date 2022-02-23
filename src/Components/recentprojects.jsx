@@ -35,7 +35,7 @@ function RecentProjects() {
                 </div>
                 <div className="row justify-content-center">
                     {projects.map(projects => (
-                        <div className="col-md-4" key={projects.id}>
+                        <div className="col-lg-4 col-md-6" key={projects.id}>
                             <div className="project__item">
                                 <div className="project__img">
                                     <img src={projects.img} alt={projects.alt} width={"356"} height={"200"} />

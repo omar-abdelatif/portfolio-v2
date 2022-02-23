@@ -1,0 +1,54 @@
+@media (max-width: 1024px){
+    /* WORK */
+    .work__item-info h2{
+        font-size: 1.4rem;
+    }
+    /* RECENT PROJECTS */
+    .project__info p{
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 991px){
+    /* NAVBAR */
+    .navbar-nav{
+        flex-direction: row;
+    }
+    .navbar-nav .nav-item{
+        margin-right: 20px;
+    }
+    .navbar-nav .nav-item:last-child{
+        margin-right: 0;
+    }
+}
+@media (max-width: 768px){
+    /* HERO */
+    .hero-img img{
+        width: 270px;
+    }
+    /* WORK */
+    .work__title h1{
+        font-size: 2.5rem;
+    }
+    .nav-tabs .nav-link{
+        font-size: 1.2rem;
+    }
+    /* RECENT PROJECT */
+    .project-header h1{
+        font-size: 2.5rem;
+    }
+    /* SKILLS */
+    .skills__title h2{
+        font-size: 3.3rem;
+    }
+    .slick-list{
+        padding: 0;
+    }
+    /* TESTMONIALS */
+    .testmonial-content{
+        padding: 40px 0;
+    }
+}
+@media (max-width: 576px){}
+@media (max-width: 480px){}
+@media (max-width: 375px){}
+@media (max-width: 280px){}

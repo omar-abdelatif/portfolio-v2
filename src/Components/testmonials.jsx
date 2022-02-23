@@ -1,6 +1,5 @@
 import Slider from 'react-slick';
 import "../../node_modules/slick-carousel/slick/slick.css";
-// import "../../node_modules/slick-carousel/slick/slick-theme.css";
 function Testmonials() {
     const testimonials = [
         {
@@ -28,7 +27,7 @@ function Testmonials() {
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true,
                     dots: true,
@@ -37,9 +36,8 @@ function Testmonials() {
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 1,
                     slidesToScroll: 1,
-
                 }
             },
             {
