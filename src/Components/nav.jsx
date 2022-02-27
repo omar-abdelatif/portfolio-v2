@@ -15,7 +15,7 @@ function NAV() {
         <header>
             <nav className="navbar navbar-expand-lg">
                 <div className="container">
-                    <Link className="navbar-brand" to="/portfolio-v2">Omar Abdelatif</Link>
+                    <Link className="navbar-brand" to="/">Omar Abdelatif</Link>
                     <ul className="navbar-nav my-auto">
                         <li className="nav-item">
                             <a className="nav-link" href="https://drive.google.com/file/d/1PLF0Hq3ZFIf9YZZQiZ5hKBSH4KC4KLi4/view?usp=sharing">Download CV</a>
