@@ -26,7 +26,7 @@ function RecentProjects() {
         }
     ]
     return (
-        <section className="recent-projects">
+        <section className="recent-projects wow fadeInDown">
             <div className="container">
                 <div className="row">
                     <div className="project-header">
