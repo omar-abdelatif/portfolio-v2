@@ -2,7 +2,7 @@ function Work() {
     const work = [
         {
             id: 1,
-            img: '/portfolio-v2/imgs/nfe.webp',
+            img: '/imgs/nfe.webp',
             title: 'Nubian For Electronics',
             desc: 'For pc setup and accessories',
             url_icon: 'fad fa-link',
@@ -18,7 +18,7 @@ function Work() {
         },
         {
             id: 2,
-            img: '/portfolio-v2/imgs/game.webp',
+            img: '/imgs/game.webp',
             title: 'Gaming For Life',
             desc: 'For selling all platform games ',
             url_icon: 'fad fa-link',
@@ -34,7 +34,7 @@ function Work() {
         },
         {
             id: 3,
-            img: '/portfolio-v2/imgs/piratesbike.webp',
+            img: '/imgs/piratesbike.webp',
             title: 'Pirates Bike',
             desc: 'For Finding Lost Bikes',
             url_icon: 'fad fa-link',
@@ -50,11 +50,11 @@ function Work() {
         },
         {
             id: 4,
-            img: '/portfolio-v2/imgs/omlo.webp',
+            img: '/imgs/omlo.webp',
             title: 'Olmo',
             desc: 'For SEO and Social Media',
             url_icon: 'fad fa-link',
-            url: 'https://omar-abdelatif.github.io/olmo-react/',
+            url: 'https://www.olmo.ml/',
             alt: 'olmo',
             tags: [
                 'HTML5',

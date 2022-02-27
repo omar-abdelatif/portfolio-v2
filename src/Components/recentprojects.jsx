@@ -2,7 +2,7 @@ function RecentProjects() {
     const projects = [
         {
             id: 1,
-            img: '/portfolio-v2/imgs/login.webp',
+            img: '/imgs/login.webp',
             alt: 'login',
             title: 'ElSaad Market',
             desc: 'Login page with dashboard with react',
@@ -10,7 +10,7 @@ function RecentProjects() {
         },
         {
             id: 2,
-            img: '/portfolio-v2/imgs/lacoste-react.webp',
+            img: '/imgs/lacoste-react.webp',
             alt: 'lacoste',
             title: 'Lacoste',
             desc: 'Lacoste for tourism with react',
@@ -18,7 +18,7 @@ function RecentProjects() {
         },
         {
             id: 3,
-            img: '/portfolio-v2/imgs/portfolio-v1.webp',
+            img: '/imgs/portfolio-v1.webp',
             alt: 'portfolio',
             title: 'Portfolio-V1',
             desc: 'SPA portfolio with react',
