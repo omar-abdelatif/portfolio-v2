@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
-:root /* Fonts */ {
+:root {
+	/* Fonts */
 	--font-cairo: #00bcd4;
 	--font-AlArabiya: #fafafa;
 }
@@ -421,8 +422,8 @@ header {
 	color: #fff;
 	text-align: center;
 }
-.slider-item-icon i {
-	font-size: 3rem;
+.slider-item-icon img{
+	margin: 0 auto;
 }
 /* TESTMONIALS */
 .testmonials{

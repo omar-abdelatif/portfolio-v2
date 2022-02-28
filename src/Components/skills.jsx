@@ -44,31 +44,73 @@ function Skills() {
     const skills = [
         {
             id: 1,
-            icon: 'fab fa-html5',
+            img: '/imgs/html5.webp',
+            alt: 'html5',
+            width: '50px',
+            height: '50px',
         },
         {
             id: 2,
-            icon: 'fab fa-css3-alt',
+            img: '/imgs/css.webp',
+            alt: 'css3',
+            width: '50px',
+            height: '60px',
         },
         {
             id: 3,
-            icon: 'fab fa-js-square',
+            img: '/imgs/js.webp',
+            alt: 'js',
+            width: '50px',
+            height: '50px',
         },
         {
             id: 4,
-            icon: 'fab fa-react',
+            img: '/imgs/react.webp',
+            alt: 'react',
+            width: '80px',
+            height: '50px',
         },
         {
             id: 5,
-            icon: 'fab fa-git',
+            img: '/imgs/git.webp',
+            alt: 'git',
+            width: '50px',
+            height: '50px',
         },
         {
             id: 6,
-            icon: 'fab fa-github',
+            img: '/imgs/bs.webp',
+            alt: 'bootstrap',
+            width: '50px',
+            height: '50px',
         },
         {
             id: 7,
-            icon: 'fab fa-bootstrap',
+            img: '/imgs/github.webp',
+            alt: 'github',
+            width: '50px',
+            height: '50px',
+        },
+        {
+            id: 8,
+            img: '/imgs/PS.webp',
+            alt: 'Adobe Photoshop',
+            width: '50px',
+            height: '50px',
+        },
+        {
+            id: 9,
+            img: '/imgs/XD.webp',
+            alt: 'Adobe XD',
+            width: '50px',
+            height: '50px',
+        },
+        {
+            id: 10,
+            img: '/imgs/VSCODE.webp',
+            alt: 'Visual Studio Code',
+            width: '50px',
+            height: '50px',
         }
     ];
     return (
@@ -88,7 +130,7 @@ function Skills() {
                                 {skills.map(skill => (
                                     <div className="slider-item" key={skill.id}>
                                         <div className="slider-item-icon">
-                                            <i className={skill.icon}></i>
+                                            <img src={skill.img} alt={skill.alt} width={skill.width} height={skill.height} />
                                         </div>
                                     </div>
                                 ))}
