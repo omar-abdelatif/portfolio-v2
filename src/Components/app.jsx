@@ -7,7 +7,9 @@ import Skills from './skills';
 import Testmonials from './testmonials';
 import ScrollUp from './scrollup';
 import Footer from './footer';
+import WOW from 'wow.js';
 function App() {
+    new WOW().init();
     return (
         <React.Fragment>
             <NAV />
