@@ -424,6 +424,7 @@ header {
 }
 .slider-item-icon img{
 	margin: 0 auto;
+	height: auto;
 }
 /* TESTMONIALS */
 .testmonials{
