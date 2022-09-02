@@ -84,25 +84,27 @@ function Work() {
                 <div className="tab-content" id="nav-tabContent">
                     <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                         <div className="row justify-content-center">
-                            {work.map(item => (<div className="col-lg-4 col-md-6" key={item.id}>
-                                <div className="work__item wow fadeInDown">
-                                    <div className="work__img">
-                                        <img src={item.img} alt={item.alt} width={"356"} height={"200"} />
-                                    </div>
-                                    <div className="work__item-info">
-                                        <h2>{item.title}</h2>
-                                        <p>{item.desc}</p>
-                                        <div className="work__item-links">
-                                            <a href={item.url} className="work__item-link" aria-label='project link'>
-                                                <i className={item.url_icon}></i>
-                                            </a>
+                            {work.map(item => (
+                                <div className="col-lg-4 col-md-6" key={item.id}>
+                                    <div className="work__item wow fadeInDown">
+                                        <div className="work__img">
+                                            <img src={item.img} alt={item.alt} width={"356"} height={"200"} />
                                         </div>
-                                        <div className="tags">
-                                            {item.tags.map(tag => (<span key={tag}>{tag}</span>))}
+                                        <div className="work__item-info">
+                                            <h2>{item.title}</h2>
+                                            <p>{item.desc}</p>
+                                            <div className="work__item-links">
+                                                <a href={item.url} className="work__item-link" aria-label='project link'>
+                                                    <i className={item.url_icon}></i>
+                                                </a>
+                                            </div>
+                                            <div className="tags">
+                                                {item.tags.map(tag => (<span key={tag}>{tag}</span>))}
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>))}
+                            ))}
                         </div>
                     </div>
                     <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
